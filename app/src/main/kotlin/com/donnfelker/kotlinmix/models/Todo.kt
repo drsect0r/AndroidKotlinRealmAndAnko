@@ -9,8 +9,8 @@ import io.realm.annotations.RealmClass
 // A current limitation of the Kotlin annotation processor indicates that adding
 // the annotation @RealmClass is required in some cases.
 @RealmClass
-open class Todo : RealmObject() {
-  //@PrimaryKey
+open class Todo() : RealmObject() {
+  @PrimaryKey
   open var id: String? = null
   open var title: String? = null
   open var description: String? = null

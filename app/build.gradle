@@ -50,10 +50,12 @@ dependencies {
   //Realm
   //compile 'io.realm:realm-android'
   compile 'com.github.thorbenprimke:realm-recyclerview:0.9.25'
-  //ButterKnife
+  //ButterKnife : http://jakewharton.github.io/butterknife/
+  //compile 'com.jakewharton:kotterknife'
+  //compile 'com.jakewharton:butterknife:7.0.1'
+  //Other
   compile 'com.android.support:appcompat-v7'
   compile 'com.android.support:design'
-  compile 'com.jakewharton:butterknife:7.0.1'
   compile 'com.android.support:support-v4'
 }
 
