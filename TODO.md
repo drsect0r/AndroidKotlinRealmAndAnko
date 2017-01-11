@@ -1,1 +1,2 @@
+- Delete Note
 - Change XML Views to Anko
