@@ -9,6 +9,7 @@ buildscript {
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 apply plugin: 'realm-android'
 
 android {
@@ -47,12 +48,9 @@ dependencies {
   compile 'org.jetbrains.anko:anko-sdk15:0.8.2' // sdk19, sdk21, sdk23 are also available
   compile 'org.jetbrains.anko:anko-support-v4:0.8.2' // In case you need support-v4 bindings
   compile 'org.jetbrains.anko:anko-appcompat-v7:0.8.2' // For appcompat-v7 bindings
+  compile "org.jetbrains.anko:anko-recyclerview-v7:0.8.2"
   //Realm
-  //compile 'io.realm:realm-android'
   compile 'com.github.thorbenprimke:realm-recyclerview:0.9.25'
-  //ButterKnife : http://jakewharton.github.io/butterknife/
-  //compile 'com.jakewharton:kotterknife'
-  //compile 'com.jakewharton:butterknife:7.0.1'
   //Other
   compile 'com.android.support:appcompat-v7'
   compile 'com.android.support:design'

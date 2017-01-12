@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import co.moonmonkeylabs.realmrecyclerview.RealmRecyclerView
 import com.donnfelker.kotlinmix.models.Todo
 import io.realm.Realm
-import org.jetbrains.anko.find
+import org.jetbrains.anko.*
 
 class TodosFragment : Fragment(), TodoAdapter.TodoItemClickListener {
 
@@ -23,7 +23,6 @@ class TodosFragment : Fragment(), TodoAdapter.TodoItemClickListener {
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup, savedInstanceState: Bundle?): View {
     val v = inflater.inflate(R.layout.fragment_todos, container, false)
-    //ButterKnife.bind(this, v)
     return v
   }
 

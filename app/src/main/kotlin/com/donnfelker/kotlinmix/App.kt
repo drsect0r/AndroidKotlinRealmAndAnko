@@ -22,6 +22,8 @@ class App : Application() {
       .encryptionKey(passwordByteArray)
       .build()
     Realm.setDefaultConfiguration(config)
-    Realm.deleteRealm(config)
+
+    // Delete DataBase
+    //Realm.deleteRealm(config)
   }
 }
